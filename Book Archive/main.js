@@ -15,7 +15,7 @@ const search = ()=>{
 results.innerHTML = '';
 document.querySelector('.found').style.display = 'none';
 	const input = searchField.value;
-	const searchBook = `http://openlibrary.org/search.json?q=${input}` 
+	const searchBook = `https://openlibrary.org/search.json?q=${input}` 
 	if(input !== ''){
 		loading.style.display = 'block';
 		errorDisplay.style.display = 'none';
